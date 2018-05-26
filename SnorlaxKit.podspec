@@ -17,18 +17,13 @@ Pod::Spec.new do |s|
 
   s.name         = "SnorlaxKit"
   s.version      = "0.0.1"
-  s.summary      = "A short description of SnorlaxKit."
+  s.summary      = "Lorem ipsum..."
 
   s.description  = <<-DESC
-                   A longer description of SnorlaxKit in Markdown format.
-
-                   * Think: Why did you write this? What is the focus? What does it do?
-                   * CocoaPods will be using this to generate tags, and improve search results.
-                   * Try to keep it short, snappy and to the point.
-                   * Finally, don't worry about the indent, CocoaPods strips it!
+                   Lorem ipsum doloret...
                    DESC
 
-  s.homepage     = "http://EXAMPLE/SnorlaxKit"
+  s.homepage     = "http://xcodetips.com"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,8 +34,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -78,7 +72,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/SnorlaxKit.git", :tag => "0.0.1" }
+  s.source       = { :git => "git@github.com:mokagio/SnorlaxKit.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
