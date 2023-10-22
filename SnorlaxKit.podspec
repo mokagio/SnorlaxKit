@@ -46,7 +46,7 @@ Pod::Spec.new do |s|
   #  Specify a social_media_url where others can refer to, for example a twitter
   #  profile URL.
   #
-  
+
   s.author             = { "Gio" => "giovanni.lodi42@gmail.com" }
   # Or just: s.author    = "Gio"
   # s.authors            = { "Gio" => "giovanni.lodi42@gmail.com" }
@@ -58,8 +58,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios, "12.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
